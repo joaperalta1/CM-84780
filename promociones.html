@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand">SNEAKERS NY</a>
+                <button 
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#contenidodemenu"
+                    aria-controls="#contenidodemenu"
+                    aria-expanded="false"
+                    aria-label="Mostrar/Ocultar Navegacion"
+                
+                
+                >
+                    <span class="navbar-toggler-icon"></span>
+            
+                </button>
+
+                <div class="collapse navbar-collapse " id="contenidodemenu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="pag.html" class="nav-link">inicio</a>
+                        </li>
+                        <!-- dropdown -->
+                        <li class="nav-item dropdown">
+                            <a 
+                                href="#" 
+                                class="nav-link dropdown-toggle"
+                                id="submenu"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+
+
+
+                            
+                            
+                            >productos
+                            </a>
+                            <!-- subelementos-->
+                             <ul class="dropdown-menu" aria-labelledby="#submenu">
+                                <li><a href="vans.html" class="dropdown-item">Vans</a></li>
+                                <li><a href="nike.html" class="dropdown-item">Nike</a></li>
+                                
+
+
+                             </ul>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contacto.html" class="nav-link">contactos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="promociones.html" class="nav-link">promociones</a>
+                        </li>
+
+                        
+
+                    </ul>
+
+                </div>
+            
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+  <div class="container-promociones">
+    <div class="item-grid" style="grid-area: box-1;">
+      <img src="galeria/img_hensing_payments-e1652945772851.jpg" alt=" " class="w-100 ">
+    </div>
+    <div class="item-grid-promociones" style="grid-area: box-2;">
+      <h1 class="text-center">promociones bancarias</h1>
+      <h2>PLAN Z NARANJA X</h2>
+      <hr>
+      <p class="text-justify fs-6 mb-1 py-1">
+        - Accedé a 3 cuotas sin interés (Plan Z)<br>
+        sobre el precio de lista en compras presenciales.<br>
+        Aplica para tarjeta de crédito Naranja X (no Visa/Mastercard).<br>
+        Válido hasta el 31/12/2025.
+      </p>
+    </div>
+    <div class="item-grid-promociones py-1" style="grid-area: box-3; ">
+      <h2>GALICIA 3 SIN INTERÉS</h2>
+      <hr>
+      <p class="text-justify fs-6 mb-1">
+        - Miércoles y viernes sobre el precio de lista,<br>
+        con tarjetas de crédito Visa, Mastercard y American Express de Banco Galicia.<br>
+        Promoción exclusiva en compras presenciales.<br>
+        Válido hasta el 31/10/2025.
+      </p>
+    </div>
+  </div>
+</main>
+
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Inicio </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Equipo </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Contacto </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Video </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> Sobre Nosotros </a>
+        </li>
+      </ul>
+      <p class="text">@Año | Todos los derechos reservados</p>
+    </footer>
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
