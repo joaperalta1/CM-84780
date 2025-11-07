@@ -245,3 +245,38 @@ iframe:hover{
   
 }
 
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.card:hover {
+    transform: scale(1.05);  
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  
+}
+
+
+
+.item-grid-promociones {
+    opacity: 0;  
+    transform: translateX(-100%); 
+    animation: slideInLeft 0.8s ease-out forwards;  
+}
+
+
+@keyframes slideInLeft {
+    to {
+        opacity: 1; 
+        transform: translateX(0);  
+    }
+}
+
+.item-grid > img {
+    opacity: 0;
+    animation: fadeIn 1s ease-out 0.1s forwards; 
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
